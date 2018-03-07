@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>RefinePrice</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>Iuvo Commercial Extension</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Spread out price filter by more price tables.</summary>
+    <description>Spread out price filter by more price tables. Magento can, by default not spread out products over enough ranges. This changes the pricing structure to spread out over a larger range of price ranges.</description>
+    <notes>See docs for details.</notes>
+    <authors><author><name>Iuvo Commerce</name><user>iuvocommerce</user><email>sales@iuvocommerce.com</email></author></authors>
+    <date>2012-03-31</date>
+    <time>17:48:27</time>
+    <contents><target name="magecommunity"><dir name="Iuvo"><dir name="RefinePrice"><dir name="Model"><dir name="Layer"><dir name="Filter"><file name="Price.php" hash="48aa507c435f1ee9d398f51679a4e08b"/></dir></dir></dir><dir name="etc"><file name="config.xml" hash="f8edcb009eb288255d1e1dceaedb32a2"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Iuvo_RefinePrice.xml" hash="ed98b40e4abaafd550b14265f79e8b55"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

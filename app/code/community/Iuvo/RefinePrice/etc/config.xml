@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Iuvo_RefinePrice>
+            <version>0.1.0</version>
+        </Iuvo_RefinePrice>
+    </modules>
+    <global>
+		<models>
+            <refineprice>
+                <class>Iuvo_RefinePrice_Model</class>
+            </refineprice>
+            <catalog>
+            	<rewrite>
+            		<layer_filter_price>Iuvo_RefinePrice_Model_Layer_Filter_Price</layer_filter_price>
+            	</rewrite>
+            </catalog>
+        </models>
+	</global>
+</config>
